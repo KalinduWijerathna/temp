@@ -1,0 +1,12 @@
+import React from "react";
+
+function Testimonials() {
+  return (
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <p>Testimonials content goes here.</p>
+    </section>
+  );
+}
+
+export default Testimonials;
