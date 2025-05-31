@@ -1,4 +1,4 @@
-import React from "react";
+import "../Styles/Welcome.css";
 
 function Welcome() {
   return (
@@ -9,4 +9,4 @@ function Welcome() {
   );
 }
 
-export default Welcome;
+export { Welcome };

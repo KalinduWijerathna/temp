@@ -1,0 +1,9 @@
+.App {
+  font-family: var(--font-body);
+  background-color: var(--color-secondary-light-gray);
+  color: var(--color-secondary-dark-gray);
+  text-align: center;
+}
+main {
+  padding: 2rem 1rem;
+}

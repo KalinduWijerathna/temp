@@ -1,3 +1,4 @@
+import "../Styles/Footer.css";
 
 function Footer() {
   return (
@@ -38,4 +39,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export { Footer };

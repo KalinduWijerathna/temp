@@ -1,3 +1,5 @@
+import "../Styles/Header.css";
+
 
 function Header() {
   return (
@@ -15,4 +17,4 @@ function Header() {
   )
 }
 
-export default Header;
+export { Header };

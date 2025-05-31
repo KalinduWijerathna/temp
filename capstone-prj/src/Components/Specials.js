@@ -1,4 +1,4 @@
-import React from "react";
+import "../Styles/Specials.css";
 
 function Specials() {
   return (
@@ -9,4 +9,4 @@ function Specials() {
   );
 }
 
-export default Specials;
+export { Specials };

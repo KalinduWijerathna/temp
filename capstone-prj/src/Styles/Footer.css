@@ -1,0 +1,26 @@
+.footer {
+  background-color: var(--color-primary-green);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__section {
+  flex: 1 1 200px;
+  margin: 1rem 0;
+}
+.footer__section h4 {
+  margin-bottom: 0.5rem;
+}
+.footer__links,
+.footer__contact,
+.footer__social {
+  list-style: none;
+  padding: 0;
+}
+.footer__links li,
+.footer__contact li,
+.footer__social li {
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.header__nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.header__nav a {
+  font-weight: 600;
+  color: var(--color-secondary-dark-gray);
+}

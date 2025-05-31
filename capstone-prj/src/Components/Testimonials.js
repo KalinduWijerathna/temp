@@ -1,4 +1,3 @@
-import React from "react";
 
 function Testimonials() {
   return (
@@ -9,4 +8,4 @@ function Testimonials() {
   );
 }
 
-export default Testimonials;
+export { Testimonials };
