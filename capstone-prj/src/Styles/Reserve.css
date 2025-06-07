@@ -1,0 +1,59 @@
+.reserve-section {
+  padding: 4rem 2rem;
+  background-color: #fdfaf6;
+  display: flex;
+  justify-content: center;
+}
+
+.reserve-container {
+  max-width: 500px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.reserve-container h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #495e57;
+}
+
+.reserve-container p {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.reserve-form {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.reserve-form label {
+  font-weight: 600;
+  color: #333;
+}
+
+.reserve-form input,
+.reserve-form select {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.reserve-form input[type="submit"] {
+  background-color: #f4ce14;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reserve-form input[type="submit"]:hover {
+  background-color: #ddb700;
+}
